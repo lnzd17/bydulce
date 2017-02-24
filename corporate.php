@@ -5,7 +5,7 @@
   <div class="col col-12">
     <h2 class="center-text">Corporate</h2>
     <hr>
-    <div id="container" class="container">
+    <div id="container" class="container ">
 			<div class="bb-custom-wrapper">
 				<div id="bb-bookblock" class="bb-bookblock">
 					<div class="bb-item" id="item1">
@@ -54,8 +54,8 @@
 				</div>
 
 				<nav>
-					<span id="bb-nav-prev">&larr;</span>
-					<span id="bb-nav-next">&rarr;</span>
+          <i class="fa fa-arrow-circle-o-left arrow-size" id="bb-nav-prev" aria-hidden="true"></i>
+          <i class="fa fa-arrow-circle-o-right arrow-size" id="bb-nav-next" aria-hidden="true"></i>
 				</nav>
 
 

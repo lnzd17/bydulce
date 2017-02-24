@@ -611,6 +611,11 @@ template {
   text-align: justify;
 }
 
+.arrow-size{
+  font-size:2em;
+  color:#999;
+}
+
 
 /*border styles*/
 hr{
@@ -624,3 +629,13 @@ hr{
 
 
 /*media quieries */
+
+@media screen and (min-width: 700px){
+
+  .white-space-border{
+    padding: 50px 75px;
+  }
+
+
+
+}
