@@ -520,26 +520,55 @@ template {
   width: 100%;
 }
 
+.center-row{
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
 .white-space-border{
-  padding:30px;
+  padding:10px 30px;
 }
 
 /*navbar formatting*/
-.head-nav{
+.head-nav-flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 
+}
+
+.nav-toggle{
+  display:none;
 }
 
 .nav-item{
-  text-decoration: none;
-  color: black;
-
+  flex:1;
+  padding: 5px 0;
+  border-top: 1px solid #999;
+  width:100%;
+  text-align: right;
 }
+
+.nav-item a{
+  text-decoration: none;
+  color: #999;
+  margin:5px 10px;
+}
+
+.nav-item a:hover{
+  color: black;
+}
+
 
 /*photo formatting*/
 
 .photo-container {
     width: 100%; /* or whatever is required */
     text-align: center;
+    margin-top:10px;
     /*margin-left:auto;
     margin-right:auto;*/
 }
@@ -556,6 +585,20 @@ template {
 
 .right-text{
   text-align: right;
+}
+
+.large-text{
+  font-size:3em;
+  padding:0;
+  margin:0 0 10px 0;
+}
+
+.right-margin{
+  margin-right: 5px;
+}
+
+.about-me{
+  text-align: justify;
 }
 
 
