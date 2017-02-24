@@ -4,23 +4,23 @@
       <h1 class="large-text" id="nav-button">&#9776;</h1>
     </div>
     <div class="col col-10">
-      <h1 class=" right-text large-text"> ByDulce </h1>
+      <a class="logo" href="index.php"><h1 class=" right-text large-text"> ByDulce</h1></a>
     </div>
 
   </div>
 
   <nav class="head-nav-flex-container" id="drop-down">
     <div class="nav-item">
-      <a href="#">Corporate</a>
+      <a href="corporate.php">Corporate</a>
     </div>
     <div class="nav-item">
-      <a href="#">Global</a>
+      <a href="global.php">Global</a>
     </div>
     <div class="nav-item">
-      <a href="#">Social</a>
+      <a href="social.php">Social</a>
     </div>
     <div class="nav-item">
-      <a href="#">Journal</a>
+      <a href="journal.php">Journal</a>
     </div>
     <div class="nav-item">
       <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>

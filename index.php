@@ -9,13 +9,6 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel sem sed nulla faucibus semper et in massa. Pellentesque nec lacinia mauris. Suspendisse potenti. Pellentesque vitae magna sagittis tortor fringilla tristique eget eget felis. Aliquam sit amet quam euismod, faucibus purus non, pulvinar sapien. Nunc pulvinar iaculis mi, vitae maximus risus consequat quis. Morbi facilisis ornare dolor a aliquet. Pellentesque fermentum risus velit, ac ullamcorper orci pretium sit amet. Morbi tortor ipsum, placerat ut mi id, varius sagittis urna.
         </p>
       </div>
-      <div class="col col-12">
-        <h2 class='center-text'>Global Project Locations</h2>
-        <hr>
-        <div class="photo-container">
-          <img src="IMG/map.png" class="photo">
-        </div>
-      </div>
     </div>
 
     <?php include 'INC/end-of-doc.php'; ?>

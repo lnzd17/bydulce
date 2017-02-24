@@ -7,6 +7,10 @@
     <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css2/jquery.jscrollpane.custom.css" />
+    <link rel="stylesheet" type="text/css" href="css2/bookblock.css" />
+    <link rel="stylesheet" type="text/css" href="css2/custom.css" />
+    <script src="js2/modernizr.custom.79639.js"></script>
 
   </head>
   <body>

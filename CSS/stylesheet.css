@@ -578,7 +578,17 @@ template {
   height:auto;
 }
 
+/*project formatting*/
+
+/*journal formatting*/
+
 /*text formatting*/
+
+.logo{
+  text-decoration: none;
+  color:black;
+}
+
 .center-text{
   text-align: center;
 }
@@ -599,6 +609,14 @@ template {
 
 .about-me{
   text-align: justify;
+}
+
+
+/*border styles*/
+hr{
+  border: 1.5px solid rgba(0,0,0,0.1);
+  max-width:250px;
+
 }
 
 
