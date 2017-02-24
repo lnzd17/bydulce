@@ -116,3 +116,20 @@
 	display: none;
 	background: #fff;
 }
+
+
+@media screen and (max-width: 400px){
+	.bb-bookblock {
+		width:280px;
+
+	}
+
+}
+
+@media screen and (min-width: 700px){
+	.bb-bookblock {
+		width:650px;
+
+	}
+
+}
