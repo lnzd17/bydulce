@@ -547,14 +547,14 @@ template {
 .nav-item{
   flex:1;
   padding: 5px 0;
-  border-top: 1px solid #999;
+  border-top: 1px solid #cacaca;
   width:100%;
   text-align: right;
 }
 
 .nav-item a{
   text-decoration: none;
-  color: #999;
+  color: #cacaca;
   margin:5px 10px;
 }
 
@@ -613,13 +613,13 @@ template {
 
 .arrow-size{
   font-size:2em;
-  color:#999;
+  color:#cacaca;
 }
 
 
 /*border styles*/
 hr{
-  border: 1.5px solid rgba(0,0,0,0.1);
+  border: 1px solid #cacaca;
   max-width:250px;
 
 }
