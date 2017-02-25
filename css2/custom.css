@@ -27,7 +27,7 @@
 
 .bb-custom-wrapper nav {
 	top: 20px;
-	left:-20px;
+	left:0;
 	position: absolute;
 	z-index: 1000;
 }
@@ -54,13 +54,13 @@
 	background: #000;
 }
 
-.bb-custom-wrapper nav span:last-child {
+/*.bb-custom-wrapper nav i:last-child {
 	left: 200px;
 }
 
-.bb-custom-wrapper nav span:first-child {
+.bb-custom-wrapper nav i:first-child {
 	left: 150px;
-}
+}*/
 
 
 

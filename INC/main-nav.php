@@ -4,7 +4,7 @@
       <h1 class="large-text" id="nav-button">&#9776;</h1>
     </div>
     <div class="col col-10">
-      <a class="logo" href="index.php"><h1 class=" right-text large-text"> ByDulce</h1></a>
+      <a class="logo" href="index.php"><h1 class=" right-text large-text"> byDulce</h1></a>
     </div>
 
   </div>
