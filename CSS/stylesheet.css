@@ -530,6 +530,25 @@ template {
   padding:10px 30px;
 }
 
+/*top flex container*/
+.top-flex-container{
+  display:flex;
+  margin-bottom: 10px;
+
+}
+
+.flex-item-one{
+  flex:1;
+  order:1;
+
+}
+
+.flex-item-two{
+  flex:1;
+  order:2;
+
+}
+
 /*navbar formatting*/
 .head-nav-flex-container{
   display: flex;
@@ -546,7 +565,7 @@ template {
 
 .nav-item{
   flex:1;
-  padding: 5px 0;
+  padding: 10px 0;
   border-top: 1px solid #cacaca;
   width:100%;
   text-align: right;
@@ -555,7 +574,7 @@ template {
 .nav-item a{
   text-decoration: none;
   color: #999;
-  margin:5px 10px;
+  margin:20px 10px;
 }
 
 .nav-item a:hover{
@@ -573,12 +592,16 @@ template {
 .st1{display:inline;}
 .st2{fill:#FFFFFF;}
 
+/*main styling*/
+.logo-container{
+  width:100%;
+}
 .logo{
   float:right;
+  max-width:100%;
+  height: auto;
 }
 
-.logo-flex-container{
-}
 
 
 
