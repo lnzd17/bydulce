@@ -562,6 +562,26 @@ template {
   color: black;
 }
 
+.fa-bars{
+  color:#cacaca;
+}
+
+/*logo formatting*/
+
+/*svg file styling*/
+.st0{display:none;}
+.st1{display:inline;}
+.st2{fill:#FFFFFF;}
+
+.logo{
+  float:right;
+}
+
+.logo-flex-container{
+}
+
+
+
 
 /*photo formatting*/
 
@@ -584,10 +604,7 @@ template {
 
 /*text formatting*/
 
-.logo{
-  text-decoration: none;
-  color:black;
-}
+
 
 .center-text{
   text-align: center;
@@ -598,9 +615,9 @@ template {
 }
 
 .large-text{
-  font-size:3em;
+  font-size:2.5em;
   padding:0;
-  margin:0 0 10px 0;
+  margin:0;
 }
 
 .right-margin{

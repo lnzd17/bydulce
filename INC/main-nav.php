@@ -1,10 +1,10 @@
 <div class="white-space-border">
   <div class="row">
     <div class="col col-2">
-      <h1 class="large-text" id="nav-button">&#9776;</h1>
+      <h1 class="large-text" id="nav-button"><i class="fa fa-bars" aria-hidden="true"></i></h1>
     </div>
-    <div class="col col-10">
-      <a class="logo" href="index.php"><h1 class=" right-text large-text"> byDulce</h1></a>
+    <div class="col col-10 logo-flex-container">
+      <a class="logo" href="index.php"><?php include("IMG/logo.svg"); ?></a>
     </div>
 
   </div>
