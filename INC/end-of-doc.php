@@ -1,7 +1,5 @@
 <div class="row">
   <div class="col col-12">
-    <h2 class='center-text'>Global Project Locations</h2>
-      <hr>
     <div class="photo-container">
       <img src="IMG/map.png" class="photo">
     </div>

@@ -29,7 +29,3 @@
       <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     </div>
   </nav>
-
-  <div class="photo-container">
-    <img src="IMG/globe.jpg" class="photo">
-  </div>

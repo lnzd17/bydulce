@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ByDulce</title>
     <script src="https://use.fontawesome.com/cf39e837b4.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Unna" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css2/jquery.jscrollpane.custom.css" />
     <link rel="stylesheet" type="text/css" href="css2/bookblock.css" />

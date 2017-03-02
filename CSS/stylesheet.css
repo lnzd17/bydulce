@@ -13,7 +13,7 @@
    ========================================================================== */
 
 html {
-  font-family: 'Didact Gothic', sans-serif; /* 1 */
+  font-family: 'Unna', serif; /* 1 */
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
@@ -568,7 +568,7 @@ template {
   padding: 10px 0;
   border-top: 1px solid #cacaca;
   width:100%;
-  text-align: right;
+  text-align: left;
 }
 
 .nav-item a{
@@ -583,6 +583,10 @@ template {
 
 .fa-bars{
   color:#cacaca;
+}
+
+.fa-bars:hover{
+  color:black;
 }
 
 /*logo formatting*/
@@ -621,13 +625,25 @@ template {
   height:auto;
 }
 
-/*project formatting*/
 
-/*journal formatting*/
+
+/*project formatting*/
+.arrow-size{
+  font-size:2em;
+  color:#cacaca;
+}
+.arrow-size:hover{
+  color:black;
+}
+
+.summary{
+  padding:10px;
+  max-width: 100%;
+  text-align: center;
+}
+
 
 /*text formatting*/
-
-
 
 .center-text{
   text-align: center;
@@ -651,10 +667,9 @@ template {
   text-align: justify;
 }
 
-.arrow-size{
-  font-size:2em;
-  color:#cacaca;
-}
+
+
+
 
 
 /*border styles*/
