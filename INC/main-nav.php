@@ -6,10 +6,9 @@
     <div class="flex-item-two">
       <a class="logo-container" href="index.php"><?php include("IMG/logo.svg"); ?></a>
     </div>
-
   </div>
 
-  <nav class="head-nav-flex-container" id="drop-down">
+  <nav class="head-nav-flex-container nav-toggle" id="drop-down">
     <div class="nav-item">
       <a href="corporate.php">Corporate</a>
     </div>
@@ -22,7 +21,7 @@
     <div class="nav-item">
       <a href="journal.php">Journal</a>
     </div>
-    <div class="nav-item">
+    <div class="nav-item-social">
       <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>

@@ -534,7 +534,6 @@ template {
 .top-flex-container{
   display:flex;
   margin-bottom: 10px;
-
 }
 
 .flex-item-one{
@@ -553,10 +552,14 @@ template {
 .head-nav-flex-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
-
+  z-index: 4;
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 90vw;
 }
 
 .nav-toggle{
@@ -564,14 +567,23 @@ template {
 }
 
 .nav-item{
-  flex:1;
+  flex-basis:50px;
   padding: 10px 0;
   border-top: 1px solid #cacaca;
   width:100%;
   text-align: left;
 }
 
-.nav-item a{
+.nav-item-social{
+  flex-basis:50px;
+  padding: 10px 0;
+  border-top: 1px solid #cacaca;
+  width:100%;
+  text-align: left;
+}
+
+
+.nav-item a , .nav-item-social a{
   text-decoration: none;
   color: #999;
   margin:20px 10px;
@@ -591,19 +603,15 @@ template {
 
 /*logo formatting*/
 
-/*svg file styling*/
-.st0{display:none;}
-.st1{display:inline;}
-.st2{fill:#FFFFFF;}
+
 
 /*main styling*/
 .logo-container{
-  width:100%;
+  width:20%;
 }
+
 .logo{
   float:right;
-  max-width:100%;
-  height: auto;
 }
 
 
@@ -690,6 +698,66 @@ hr{
   .white-space-border{
     padding: 50px 75px;
   }
+
+  .nav-toggle{
+    display: inline-flex;
+  }
+
+  .head-nav-flex-container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    z-index: 0;
+    position: inherit;
+    background-color: white;
+    height: auto;
+    width: 100%;
+  }
+
+  .nav-item{
+    flex: 1;
+    padding: 10px 0;
+    border-top: 1px solid #cacaca;
+    width:auto;
+    text-align: left;
+  }
+
+  .nav-item-social{
+    flex: 1;
+    padding: 10px 0;
+    border-top: 1px solid #cacaca;
+    width:auto;
+    text-align: left;
+    display: flex;
+  }
+
+.nav-item-social a{
+    text-decoration: none;
+    color: #999;
+    margin:0;
+    flex: 1;
+  }
+
+  .top-flex-container{
+    display:flex;
+    margin-bottom: 10px;
+
+  }
+
+  .flex-item-one{
+    display: none;
+    order:3;
+  }
+
+  .flex-item-two{
+    order:1;
+    display:flex;
+    justify-content: center;
+  }
+
+
 
 
 
