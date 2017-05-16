@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css2/bookblock.css" />
     <link rel="stylesheet" type="text/css" href="css2/custom.css" />
     <script src="js2/modernizr.custom.79639.js"></script>
+    <script src="JS/ps.js"></script>
 
   </head>
   <body>
