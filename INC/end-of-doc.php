@@ -1,12 +1,3 @@
-<div class="row">
-  <div class="col col-12">
-    <div class="photo-container">
-      <img src="IMG/map.png" class="photo">
-    </div>
-  </div>
-</div>
-
-
 <?php include 'INC/add_jquery.php'; ?>
 <script src="JS/mobile.js"></script>
 <script src="js2/jquery.mousewheel.js"></script>

@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col col-12">
         <div class="photo-container">
-          <img src="IMG/coffee.jpg" class="photo">
+          <img src="IMG/Dulce-36.jpg" class="photo">
         </div>
       </div>
       <div class="col col-12">

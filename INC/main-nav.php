@@ -1,3 +1,5 @@
+  <?php include 'INC/side-nav.php'; ?>
+
 <div class="white-space-border">
   <div class="top-flex-container">
     <div class="flex-item-one">
@@ -19,12 +21,6 @@
       <a href="social.php">Social</a>
     </div>
     <div class="nav-item">
-      <a href="journal.php">Journal</a>
-    </div>
-    <div class="nav-item-social">
-      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a href="portfolio.php">Portfolio</a>
     </div>
   </nav>

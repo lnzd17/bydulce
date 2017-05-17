@@ -3,7 +3,7 @@
 
 
     <div class="photo-container">
-      <img src="IMG/globe.jpg" class="photo">
+      <img src="IMG/Dulce-10.jpg" class="photo">
     </div>
 
     <div class="row">
