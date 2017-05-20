@@ -2,9 +2,6 @@
 
 <div class="white-space-border">
   <div class="top-flex-container">
-    <div class="flex-item-one">
-      <h1 class="large-text" id="nav-button"><i class="fa fa-bars" aria-hidden="true"></i></h1>
-    </div>
     <div class="flex-item-two">
       <a class="logo-container" href="index.php"><?php include("IMG/logo.svg"); ?></a>
     </div>

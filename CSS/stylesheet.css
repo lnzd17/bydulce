@@ -526,60 +526,45 @@ template {
 }
 
 .white-space-border{
-  padding:10px 30px;
+  padding: 50px 275px 50px 100px ;
 }
 
 /*top flex container*/
 .top-flex-container{
   display:flex;
   margin-bottom: 10px;
-}
-
-.flex-item-one{
-  flex:1;
-  order:1;
+  min-height: : 200px;
 }
 
 .flex-item-two{
-  flex:1;
-  order:2;
-
+  order:1;
+  display:flex;
+  justify-content: center;
+  flex: 1;
 }
 
 /*navbar formatting*/
 .head-nav-flex-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
-  z-index: 4;
-  position: absolute;
+  z-index: 0;
+  position: inherit;
   background-color: white;
-  height: 100%;
-  width: 90vw;
+  height: auto;
+  width: 100%;
+  border-top: 1px solid #cacaca;
 }
 
-.nav-toggle{
-  display:none;
-}
 
 .nav-item{
-  flex-basis:50px;
   padding: 10px 0;
-  border-top: 1px solid #cacaca;
-  width:100%;
-  text-align: left;
+  width:auto;
+  text-align: center;
+  border-top: 0px;
 }
-
-.nav-item-social{
-  flex-basis:50px;
-  padding: 10px 0;
-  border-top: 1px solid #cacaca;
-  width:100%;
-  text-align: left;
-}
-
 
 .nav-item a , .nav-item-social a{
   text-decoration: none;
@@ -599,9 +584,6 @@ template {
   color:black;
 }
 
-/*logo formatting*/
-
-
 
 /*main styling*/
 .logo-container{
@@ -613,37 +595,41 @@ template {
 
 /*photo formatting*/
 
+
 .photo-container {
-    width: 100%; /* or whatever is required */
-    text-align: center;
+  width: 100%; /* or whatever is required */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .photo{
   max-width:100%;
   height:auto;
+  padding-top: 60px;
 }
 
 
 
 /*project formatting*/
-.arrow-size{
+/*.arrow-size{
   font-size:2em;
   color:#cacaca;
 }
 .arrow-size:hover{
   color:black;
-}
+}*/
 
-.summary{
+/*.summary{
   padding:10px;
   max-width: 100%;
   text-align: center;
-}
+}*/
 
 
 /*text formatting*/
 
-.center-text{
+/*.center-text{
   text-align: center;
 }
 
@@ -659,14 +645,17 @@ template {
 
 .right-margin{
   margin-right: 5px;
-}
+}*/
 
 /*.about-me{
   text-align: justify;
 }*/
-
-
-
+.about-me{
+  text-align: justify;
+  padding-top: 60px;
+  padding-left:25px;
+  padding-right:25px;
+}
 
 
 
@@ -674,127 +663,51 @@ template {
 hr{
   border: 1px solid #cacaca;
   max-width:250px;
-
 }
 
 
-/*background colors*/
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 260px; /* Place content 60px from the top */
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left:10px;
+  padding-right:10px;
+  color: #cacaca;
+}
+
+
+.sidenav-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidenav-links a{
+  text-decoration: none;
+  color: #999;
+  margin-top: 15px;
+}
+
+.sidenav-links a:hover{
+  color: black;
+}
+
+.map{
+  width: 100%;
+}
+
+p{
+  margin:0px;
+}
+
 
 
 /*media quieries */
-
-@media screen and (min-width: 700px){
-
-  .white-space-border{
-    padding: 50px 275px 50px 100px ;
-  }
-
-  .nav-toggle{
-    display: inline-flex;
-  }
-
-  .head-nav-flex-container{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    z-index: 0;
-    position: inherit;
-    background-color: white;
-    height: auto;
-    width: 100%;
-    border-top: 1px solid #cacaca;
-  }
-
-  .nav-item{
-    padding: 10px 0;
-    width:auto;
-    text-align: center;
-    border-top: 0px;
-  }
-
-
-  .top-flex-container{
-    display:flex;
-    margin-bottom: 10px;
-    min-height: : 200px;
-  }
-
-  .flex-item-one{
-    display: none;
-    order:3;
-  }
-
-  .flex-item-two{
-    order:1;
-    display:flex;
-    justify-content: center;
-  }
-
-
-
-  .sidenav {
-    height: 100%; /* 100% Full-height */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    right: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 260px; /* Place content 60px from the top */
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-left:10px;
-    padding-right:10px;
-    color: #cacaca;
-  }
-
-
-  .sidenav-links{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .sidenav-links a{
-    text-decoration: none;
-    color: #999;
-    margin-top: 15px;
-  }
-
-  .map{
-    width: 100%;
-  }
-
-  .about-me{
-    text-align: justify;
-    padding-top: 60px;
-    padding-left:25px;
-    padding-right:25px;
-  }
-
-  .photo-container {
-    width: 100%; /* or whatever is required */
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .photo{
-    padding-top: 60px;
-  }
-
-  p{
-    margin: 0px;
-  }
-
-
-
-
-
-
-
-
-}
