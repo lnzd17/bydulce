@@ -673,7 +673,7 @@ hr{
   top: 0;
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 260px; /* Place content 60px from the top */
+  /*padding-top: 260px; /* Place content 60px from the top */
   width: 200px;
   display: flex;
   flex-direction: column;
@@ -681,6 +681,15 @@ hr{
   padding-left:10px;
   padding-right:10px;
   color: #cacaca;
+}
+
+.push-down{
+  height:75%;
+
+}
+
+.bottom-corner{
+  padding: 10px;
 }
 
 
