@@ -523,7 +523,6 @@ template {
 .center-row{
   margin-left:auto;
   margin-right:auto;
-
 }
 
 .white-space-border{
@@ -539,7 +538,6 @@ template {
 .flex-item-one{
   flex:1;
   order:1;
-
 }
 
 .flex-item-two{
@@ -607,15 +605,10 @@ template {
 
 /*main styling*/
 .logo-container{
-  width:20%;
+  width:50%;
+  text-align: center;
+  margin-bottom: 15px;
 }
-
-.logo{
-  float:right;
-}
-
-
-
 
 
 /*photo formatting*/
@@ -623,9 +616,6 @@ template {
 .photo-container {
     width: 100%; /* or whatever is required */
     text-align: center;
-    margin-top:10px;
-    /*margin-left:auto;
-    margin-right:auto;*/
 }
 
 .photo{
@@ -671,9 +661,9 @@ template {
   margin-right: 5px;
 }
 
-.about-me{
+/*.about-me{
   text-align: justify;
-}
+}*/
 
 
 
@@ -696,7 +686,7 @@ hr{
 @media screen and (min-width: 700px){
 
   .white-space-border{
-    padding: 50px 275px;
+    padding: 50px 275px 50px 100px ;
   }
 
   .nav-toggle{
@@ -728,6 +718,7 @@ hr{
   .top-flex-container{
     display:flex;
     margin-bottom: 10px;
+    min-height: : 200px;
   }
 
   .flex-item-one{
@@ -741,13 +732,7 @@ hr{
     justify-content: center;
   }
 
-  .photo-container {
-    width: 100%; /* or whatever is required */
-    text-align: center;
-    margin-top:10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 
   .sidenav {
     height: 100%; /* 100% Full-height */
@@ -756,14 +741,14 @@ hr{
     top: 0;
     right: 0;
     overflow-x: hidden; /* Disable horizontal scroll */
-    /* padding-top: 60px; /* Place content 60px from the top */
+    padding-top: 260px; /* Place content 60px from the top */
     width: 200px;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-left:10px;
     padding-right:10px;
-    background-color: rgba(0, 0, 0, 0.1);
+    color: #cacaca;
   }
 
 
@@ -781,6 +766,28 @@ hr{
 
   .map{
     width: 100%;
+  }
+
+  .about-me{
+    text-align: justify;
+    padding-top: 60px;
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+  .photo-container {
+    width: 100%; /* or whatever is required */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .photo{
+    padding-top: 60px;
+  }
+
+  p{
+    margin: 0px;
   }
 
 

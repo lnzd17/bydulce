@@ -8,5 +8,4 @@
     <a href="#"><i class="fa fa-mobile" aria-hidden="true"></i></a>
     <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
   </div>
-
 </div>

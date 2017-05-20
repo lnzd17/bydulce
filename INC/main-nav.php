@@ -1,4 +1,4 @@
-  <?php include 'INC/side-nav.php'; ?>
+<?php include 'INC/side-nav.php'; ?>
 
 <div class="white-space-border">
   <div class="top-flex-container">

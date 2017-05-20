@@ -6,11 +6,11 @@
 <script src="js2/jquery.bookblock.js"></script>
 <script src="js2/page.js"></script>
 <script>
-  $(function() {
+$(function() {
 
-    Page.init();
+  Page.init();
 
-  });
+});
 </script>
 </div>
 </body>
