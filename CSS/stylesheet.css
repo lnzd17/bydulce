@@ -50,8 +50,20 @@ section {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin-top: 25px;
+  text-align: center;
 }
+
+h2{
+  margin: 0;
+}
+
+h5{
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+
 
 /* Grouping content
    ========================================================================== */
@@ -692,6 +704,19 @@ hr{
   padding: 10px;
 }
 
+.bottom-corner h2{
+  color: black;
+}
+
+.bottom-corner a{
+  text-decoration: none;
+  color: #999;
+}
+
+.bottom-corner a:hover{
+  color:black;
+}
+
 
 .sidenav-links{
   display: flex;
@@ -715,6 +740,11 @@ hr{
 
 p{
   margin:0px;
+}
+
+form{
+  text-align: center;
+  margin-top: 25px;
 }
 
 

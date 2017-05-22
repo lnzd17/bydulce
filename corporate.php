@@ -1,7 +1,7 @@
 <?php include 'INC/start-of-doc.php'; ?>
 <?php include 'INC/main-nav.php'; ?>
 
-<div class="row">
+<div class="row center">
   <div class="col col-5">
     <div class="photo-container">
       <img src="IMG/Dulce-16.jpg" class="photo">

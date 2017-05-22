@@ -1,17 +1,8 @@
-<?php include 'INC/add_jquery.php'; ?>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
 <script src="JS/mobile.js"></script>
-<script src="js2/jquery.mousewheel.js"></script>
-<script src="js2/jquery.jscrollpane.min.js"></script>
-<script src="js2/jquerypp.custom.js"></script>
-<script src="js2/jquery.bookblock.js"></script>
-<script src="js2/page.js"></script>
-<script>
-$(function() {
-
-  Page.init();
-
-});
-</script>
 </div>
 </body>
 </html>

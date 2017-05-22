@@ -4,8 +4,9 @@
   </div>
 
   <div class="bottom-corner">
-    <h1>Contact Me</h1>
-    <img src="IMG/map.png" class='map'>
+    <h2>Contact Me</h2>
+    <h5><a href="entry.php">Professional CV</a></h5>
+    <img src="IMG/pins.svg" class='map'>
     <div class="sidenav-links">
       <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
       <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
