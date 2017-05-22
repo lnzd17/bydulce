@@ -681,7 +681,7 @@ hr{
 .sidenav {
   height: 100%; /* 100% Full-height */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  /*z-index: 1; /* Stay on top */
   top: 0;
   right: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -745,6 +745,11 @@ p{
 form{
   text-align: center;
   margin-top: 25px;
+}
+
+.modal-box{
+  background-color: rgba(255,255,255,0.0);
+  height: 100%;
 }
 
 
