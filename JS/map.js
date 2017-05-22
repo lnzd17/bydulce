@@ -9,6 +9,7 @@ $( "#dialog" ).dialog({
  });
 $( ".map" ).click(function() {
   $( "#dialog" ).dialog( "open" );
+  $("#world").fadeIn('fast');
 });
 
 function findCountry(){

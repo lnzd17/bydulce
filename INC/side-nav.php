@@ -1,8 +1,7 @@
-<div id="mySidenav" class="sidenav" title='hello'>
+<div id="mySidenav" class="sidenav">
   <div class="push-down">
 
   </div>
-
   <div class="bottom-corner">
     <h2>Contact Me</h2>
     <h5><a href="entry.php">Professional CV</a></h5>
@@ -16,11 +15,12 @@
       <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
     </div>
   </div>
+</div>
 
-  <div id="dialog" class="modal-box">
-    <div class="photo-container">
-      <div class="map">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="703" xml:space="preserve">
+<div id="dialog" class="modal-box">
+  <div class="photo-container">
+    <div class="map">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="703" xml:space="preserve" id="world">
 <desc>JavaScript chart by amCharts 3.21.1</desc>
 <desc>This map was created using Pixel Map Generator by amCharts and is licensed under the Creative Commons Attribution 4.0 International License. You may use this map the way you see fit as long as proper attribution to the name of amCharts is given in the form of link to http://pixelmap.amcharts.com/ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ If you would like to use this map without any attribution, you can acquire a commercial license for the JavaScript Maps - a tool that was used to produce this map. To do so, visit amCharts Online Store: http://www.amcharts.com/online-store/</desc>
 <g>
@@ -223,7 +223,5 @@
 </g> -->
 </svg>
 </div>
-    </div>
   </div>
-
 </div>

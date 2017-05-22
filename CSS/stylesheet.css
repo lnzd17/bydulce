@@ -752,6 +752,10 @@ form{
   height: 100%;
 }
 
+#world{
+  display: none;
+}
+
 
 
 /*media quieries */
